@@ -68,13 +68,6 @@ function gridThirty(){
     }
 }
 
-function emptyGrid(){
-    while(gridContainer.firstChild){
-        gridContainer.removeChild(gridContainer.firstChild);
-    }
-}
-
-
 function draw(){
     divs.forEach((div)=>{
         div.addEventListener('mouseover', (e)=>{
